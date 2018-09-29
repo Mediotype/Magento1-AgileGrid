@@ -1,0 +1,145 @@
+<_>
+   <form_key>6USxstan9b7dj65c</form_key>
+   <name>Mediotype_AgileGrid</name>
+   <channel>community</channel>
+   <version_ids>
+      <version_ids>1</version_ids>
+   </version_ids>
+   <summary>The Agile Grid Extension by Mediotype allows Magento admins to save custom made filters for all filterable Magento grids turning the Magento admin system in to an Agile and powerful reporting tool.</summary>
+   <description>Simplicity is the ultimate sophistication.
+
+       This operational extension is perfect for managers running a storefront who need a reliable and efficient reporting system in place to either analyze data, or to send analyzed data to other team members for use. What was once before a manual and tedious process of manually creating filters every time for every field can now be saved and automated. This free Agile Magento extension is one of the most useful to date.
+
+       Further more, the agile grid filters you create and save can be used throughout various sections within the Magento system. Any grid in the system found within the admin panel, products, orders, invoices, or shipments can be preconfigured. You can then save these custom made filters for later use, on any filterable grid found in the Magento admin.
+
+       The Magento Agile Grid Extension is perfect for custom reports. If your business faces constant changes and daily tweaks to performance or expectations, you will want to be able to filter grid views, custom made for your businesses target goals or to help safeguard against potential problems.
+
+       Management will be able to preset these important filters for future use by other employees. Employees can then log into the system, hit the created custom filter, and understand exactly the concerns management had in mind. For instance, if a custom filter has been designed to show within a specific date range, how many products an individual or group of customers have purchased. You can then quickly ensure that expected sales are still being completed by quickly and easily applying your saved filter.
+
+       The ability to save relative Date Ranges allows for monthly reports to be created that display all orders, and other actions; relative to the current date, using PHP’s dateinterval syntax. PHP’s date interval syntax is well documented here: http://php.net/manual/en/dateinterval.construct.php . As another example, perhaps you care to keep an eye on the monthly site content being created. Let’s say you expected 8 pieces of content to be uploaded every month. With the custom made reporting system, you will be able to isolate specific date ranges for targeted pages that have been updated within the set time frame.
+
+       In the end, the Mediotype Magento Agile Grid System increases the bottom line efficiency of report generation. Don’t make your work harder than it has to be. Save time, energy, and increase the worth of the reports you create in the Magento system with Mediotype’s Agile Grid for Magento.
+
+       Features:
+       •	Create Custom Filters
+       •	Save Custom Created Filters
+       •	Use Custom Filters On Every Filterable Grid in The Magento Admin
+       •	Use Magento Agile Grid to reclaim your time
+   </description>
+   <license>Custom License</license>
+   <license_uri>http://mediotype.com/LICENSE.txt</license_uri>
+   <version>0.1.0</version>
+   <stability>stable</stability>
+   <notes>0.1.0 Version Release -
+       Allows saving filters on any and all filterable grids in the Magento admin.
+
+       Allows use of PHP Date Interval Syntax
+       http://php.net/manual/en/class.dateinterval.php
+       To store filters by relative dates
+   </notes>
+   <authors>
+      <name>
+         <name>Mediotype</name>
+      </name>
+      <user>
+         <user>mprototype</user>
+      </user>
+      <email>
+         <email>joel@mediotype.com</email>
+      </email>
+   </authors>
+   <depends_php_min>5.0.0</depends_php_min>
+   <depends_php_max>6.0.0</depends_php_max>
+   <depends>
+      <package>
+         <name>
+            <name/>
+         </name>
+         <channel>
+            <channel/>
+         </channel>
+         <min>
+            <min/>
+         </min>
+         <max>
+            <max/>
+         </max>
+         <files>
+            <files>                       </files>
+         </files>
+      </package>
+      <extension>
+         <name>
+            <name>Core</name>
+         </name>
+         <min>
+            <min/>
+         </min>
+         <max>
+            <max/>
+         </max>
+      </extension>
+   </depends>
+   <contents>
+      <target>
+         <target>magelocal</target>
+         <target>magecommunity</target>
+         <target>mageetc</target>
+         <target>magedesign</target>
+         <target>mageskin</target>
+         <target>magedesign</target>
+         <target>magedesign</target>
+         <target>mageetc</target>
+         <target>magecommunity</target>
+         <target>magecommunity</target>
+      </target>
+      <path>
+         <path/>
+         <path>Mediotype/Core</path>
+         <path>./modules/Mediotype_Core.xml</path>
+         <path>./adminhtml/default/default/template/mediotype/core</path>
+         <path>./adminhtml/default/default/mediotype</path>
+         <path>./adminhtml/default/default/layout/mediotype-core</path>
+         <path>./adminhtml/default/default/layout/mediotype/AgileGrid.xml</path>
+         <path>./modules/Mediotype_AgileGrid.xml</path>
+         <path>Mage/Adminhtml</path>
+         <path>Mediotype/AgileGrid</path>
+      </path>
+      <type>
+         <type>file</type>
+         <type>dir</type>
+         <type>file</type>
+         <type>dir</type>
+         <type>dir</type>
+         <type>dir</type>
+         <type>file</type>
+         <type>file</type>
+         <type>dir</type>
+         <type>dir</type>
+      </type>
+      <include>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+      </include>
+      <ignore>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+      </ignore>
+   </contents>
+</_>

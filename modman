@@ -1,0 +1,6 @@
+app/code/community/Mediotype/AgileGrid app/code/community/Mediotype/AgileGrid
+app/code/community/Mage/Adminhtml/Block/Widget/Grid.php app/code/community/Mage/Adminhtml/Block/Widget/Grid.php
+app/etc/modules/Mediotype_AgileGrid.xml app/etc/modules/Mediotype_AgileGrid.xml
+app/design/adminhtml/base/default/layout/mediotype/AgileGrid.xml app/design/adminhtml/base/default/layout/mediotype/AgileGrid.xml
+js/mediotype/agilegrid/filters.js js/mediotype/agilegrid/filters.js
+Mediotype_AgileGrid.xml var/connect/Mediotype_AgileGrid.xml
